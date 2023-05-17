@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,400;1,500&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,500;1,500&family=Work+Sans:wght@100&display=swap');
+* {
+    padding:0;
+    margin:0;
+   list-style: none;
+   text-decoration: none;
+   font-family: 'Lora', serif;
+   transition:all 0.32s ease-in-out;
+}
+
+.home {
+ 
+     width:100%;
+     height:100vh;
+
+    background:url('../image/g63.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.home div  {
+    text-align: center;
+}
+.home div h2 {
+    font-size: 6rem;
+    font-weight: 600;
+    color:#fff;
+    
+}
+.home div h2 span {
+    color:#C28868;
+    font-size: 7rem;
+}
+.home div  p {
+    font-size: 2rem;
+    font-weight: 500;
+    color:#fff;
+    padding-bottom: 20px;
+
+}
+.home div  a {
+    padding:10px 15px;
+    margin-top :70px;
+    border:1px solid #C28868;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    cursor:pointer;
+    background:#fff;
+    color:#111;
+   transition:all 0.32s ease-in-out;
+    
+}
+.home div  a:hover {
+      padding:10px 30px;
+}
+@media (max-width:750px){
+    .home div h2 {
+        font-size: 4rem;
+
+    }
+    .home div h2 span {
+        font-size: 5rem;
+    }
+    .home div  p {
+        font-size: 1.4rem;
+    }
+}

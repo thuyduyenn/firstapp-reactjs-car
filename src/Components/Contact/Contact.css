@@ -1,72 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,400;1,500&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,500;1,500&family=Work+Sans:wght@100&display=swap');
-
-
 * {
     padding:0;
     margin:0;
    list-style: none;
    text-decoration: none;
+   box-sizing: border-box;
    font-family: 'Lora', serif;
 }
-.menu-container {
-    padding:2rem 5%;
-   
+.contact {
+    padding:10px 9%;
 }
-.menu-container h1 {
-   font-size: 3rem;
-   font-weight: 700;
-   text-align: center;
-   
+.contact  h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
 }
-.menu-container h1 span {
-      font-size: 3.5rem;
-      color:#C28868;
+.contact  h1 span {
+    color:#C28868;
+    font-size: 35px;
+    font-weight: 600;
 }
-.menu-box {
+.contact-container {
     display:flex;
-    align-items: center;
-    justify-content: center;
-    width:100%;
-    margin:10px;
+    gap:10px;
     flex-wrap: wrap;
-   
-}
-.menu-box .box {
-    border:1px solid #eee;  
-    width:300px;
-    cursor:pointer;
-    height:270px;
-}
-.menu-box .box .image {
-   width:100%;
-   height:150px;
-   overflow: hidden;
+    width:100%;
 
 }
-.menu-box .box .image img {
+
+.contact-container .contact-right {
     width:100%;
-     height:100%;
-    object-fit: cover;
 }
-.menu-box .box .image img:hover {
-    transform: scale(1.1);
+
+.contact-container .contact-right form {
+    display:flex;
+    flex-direction: column;
+    width:100%;
 }
-.menu-box .box:hover {
-    box-shadow: 0 0 0.1rem #111;
+.contact-container .contact-right form #contact-form {
+    display:flex;
+    align-items: center;
+    width:100%;
+    border-bottom: 1px solid #eee;
+    margin:10px;
+}
+.contact-container .contact-right form div label {
+    font-size: 30px;
+    padding-right: 20px;
+
+}
+
+input {
+    border:none;
+    outline:none;
+    width:100%;
+   
 }
 .btn {
     width:100%;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-between;
-    gap:10px;
-    background:#111;
-    padding:10px 0;
+     display:flex;
+     justify-content: center;
+    
 }
-.btn button {
-    border:none;
-    padding:5px 10px;
+.btn  div {
+    width:150px;
+    height:40px;
+}
+.btn  div  button {
+    width:100%;
+    height:100%;
     cursor:pointer;
-    border-radius: 5px;
+}
+.send {
+    font-size: 20px;
 }
