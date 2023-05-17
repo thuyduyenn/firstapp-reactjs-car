@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/deploy-github/static/css/main.8f143ee2.css",
+    "main.js": "/deploy-github/static/js/main.ef178025.js",
+    "static/media/anhme.jpg": "/deploy-github/static/media/anhme.e6389a36d71fe1bfb9fd.jpg",
+    "static/media/g63.jpg": "/deploy-github/static/media/g63.ce346f55342a62374943.jpg",
+    "index.html": "/deploy-github/index.html",
+    "main.8f143ee2.css.map": "/deploy-github/static/css/main.8f143ee2.css.map",
+    "main.ef178025.js.map": "/deploy-github/static/js/main.ef178025.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f143ee2.css",
+    "static/js/main.ef178025.js"
+  ]
+}
